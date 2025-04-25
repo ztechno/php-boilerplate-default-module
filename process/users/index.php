@@ -1,6 +1,8 @@
 <?php
 
+use Core\Database;
 use Core\Page;
+use Core\Response;
 
 Page::setTitle(__('default.menu.users'));
 Page::setModuleName(__('default.menu.module_name'));
